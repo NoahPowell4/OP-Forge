@@ -220,40 +220,40 @@ var PHASES=["","Muscular Conditioning","Conditioning / Hypertrophy","Linear Max 
 var MAIN={
  1:{
   push_a:[{k:"bench",lift:"Bench Press",sets:[[.5,"10"],[.675,"10"],[.75,"8"],[.775,"6"]]}],
-  pull_a:[{k:"deadlift",lift:"Deadlift",sets:[[.8,"6"],[.8,"6"]]}],
-  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.8,"6"],[.8,"6"],[.8,"6"],[.8,"6"]]}],
+  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.8,"6"],[.8,"6"],[.8,"6"],[.8,"6"]]},
+          {k:"deadlift",lift:"Deadlift",sets:[[.8,"6"],[.8,"6"]]}],
   push_b:[{k:"bench",lift:"Bench Press",sets:[[.8,"MR"]],note:"Top set — as many reps as possible (MR)."}],
   legs_b:[{k:"squat",lift:"Back Squat",sets:[[.7,"8"],[.7,"8"],[.7,"8"],[.7,"8"]]},
           {k:"deadlift",lift:"Deadlift",sets:[[.7,"8"],[.7,"8"]]}]
  },
  2:{
   push_a:[{k:"bench",lift:"Bench Press",sets:[[.725,"10"],[.775,"8"],[.8,"6-8",5]]}],
-  pull_a:[{k:"deadlift",lift:"Deadlift",sets:[[null,"8"],[null,"8"],[null,"8"]],note:"Load to your choice."}],
-  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.8,"MR10"]],note:"MR10 = max reps, cap 10. Then Extra Volume: add 5 lb and do 5x3 @ 60s rest. If you hit <8 reps on the MR10 set, drop your max 2.5% going forward."}],
+  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.8,"MR10"]],note:"MR10 = max reps, cap 10. Then Extra Volume: add 5 lb and do 5x3 @ 60s rest. If you hit <8 reps on the MR10 set, drop your max 2.5% going forward."},
+          {k:"deadlift",lift:"Deadlift",sets:[[null,"8"],[null,"8"],[null,"8"]],note:"Load to your choice."}],
   push_b:[{k:"bench",lift:"Bench Press",sets:[[.8,"MR",-5]],note:"Top set MR (0.8x1RM minus 5 lb)."}],
   legs_b:[{k:"squat",lift:"Back Squat",sets:[[.8,"MR10",5]],note:"MR10. Back-off: drop 10 lb, then 10 reps -> 10x3, 8-9 -> 8x3, 7 -> 5x3, <7 -> skip & reduce max."},
           {k:"deadlift",lift:"Deadlift",sets:[[null,"8"],[null,"8"],[null,"8"]]}]
  },
  3:{
   push_a:[{k:"bench",lift:"Bench Press",sets:[[.85,"4-6"],[.85,"4-6"],[.85,"4-6"]]}],
-  pull_a:[{k:"deadlift",lift:"Deadlift",sets:[[.875,"3-6"],[.875,"3-6"]]}],
-  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.85,"4-6",5],[.85,"4-6",5],[.85,"4-6",5]]}],
+  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.85,"4-6",5],[.85,"4-6",5],[.85,"4-6",5]]},
+          {k:"deadlift",lift:"Deadlift",sets:[[.875,"3-6"],[.875,"3-6"]]}],
   push_b:[{k:"bench",lift:"Bench Press",sets:[[.85,"4-6",5],[.85,"4-6",5],[.85,"4-6",5]]}],
   legs_b:[{k:"squat",lift:"Back Squat",sets:[[.85,"4-6",10]]},
           {k:"deadlift",lift:"Deadlift",sets:[[null,"8"]]}]
  },
  4:{
   push_a:[{k:"bench",lift:"Bench Press",sets:[[.875,"3",-5],[.9,"3",-5],[.9,"3"]]}],
-  pull_a:[{k:"deadlift",lift:"Deadlift",sets:[[.9,"3",5],[.95,"1-2"]]}],
-  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.9,"3",-5],[.9,"3"],[.9,"3",5]]}],
+  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.9,"3",-5],[.9,"3"],[.9,"3",5]]},
+          {k:"deadlift",lift:"Deadlift",sets:[[.9,"3",5],[.95,"1-2"]]}],
   push_b:[{k:"bench",lift:"Bench Press",sets:[[.875,"3"],[.9,"2-4"],[.95,"1-2"]]}],
   legs_b:[{k:"squat",lift:"Back Squat",sets:[[.9,"3",5],[.95,"1-2"]]},
           {k:"deadlift",lift:"Deadlift",sets:[[null,"6"],[null,"6"]]}]
  },
  5:{
   push_a:[{k:"bench",lift:"Bench Press",sets:[[.975,"1-4"]],note:"Heavy top set of 1-4 reps. This projects your new max — log the weight and reps."}],
-  pull_a:[{k:"deadlift",lift:"Deadlift",sets:[[.975,"1-4"]],note:"Heavy top set of 1-4 reps. Log weight and reps."}],
-  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.975,"1-4"]],note:"Heavy top set of 1-4 reps. Log weight and reps."}],
+  legs_a:[{k:"squat",lift:"Back Squat",sets:[[.975,"1-4"]],note:"Heavy top set of 1-4 reps. Log weight and reps."},
+          {k:"deadlift",lift:"Deadlift",sets:[[.975,"1-4"]],note:"Heavy top set of 1-4 reps. Log weight and reps."}],
   legs_b:[{k:"deadlift",lift:"Deadlift",sets:[[.675,"4"],[.7,"4"],[.725,"2"]],note:"Volume / speed work."}]
  }
 };
